@@ -1,0 +1,15 @@
+<html>
+  <script>
+
+    var archive = '100,200-150,200;20';
+    var values = archive.split(',');
+
+    console.log(values);
+
+    var expression = /[,;-]/;
+    var values = archive.split(expression);
+
+    console.log(values);
+    
+  </script>
+</html>
